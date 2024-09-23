@@ -4,8 +4,99 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Donate Bangladesh</title>
+  <!-- daisy UI link -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
-  
+  <header>
+    <!-- navbar section start -->
+     
+   <section class="bg-[#F9F7F3] mb-10">
+    <nav class="container m-auto p-6">
+
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+         <button class="btn bg-lime-400 text-xl font-semibold text-[#111111]">Blog</button>
+        </div>
+        <div class="navbar-center gap-4">
+          <img class="w-12 h-12" src="./assets/logo.png" alt="">
+          <h1 class="text-xl font-semibold text-[#111111]">Donate Bangladesh</h1>
+        </div>
+        <div class="navbar-end gap-4">
+          <div class="flex gap-2">
+            <div>
+              <img src="./assets/coin.png" alt="">
+            </div>
+            <div id="main-balance" class="text-xl font-medium text-[#111111]">10000</div>
+          </div>
+         
+        </div>
+      </div>
+
+    </nav>
+   </section>
+      
+     <!-- navbar section end -->
+
+
+     
+
+  </header>
+  <main class="py-10 px-32 ">
+
+    <!-- Button section start  -->
+     
+       <section class=" text-center mb-7">
+             <div class="">
+               <button class="btn bg-lime-400 text-xl font-semibold text-[#111111]">Donation</button>
+              <button class="btn bg-lime-400 text-xl font-semibold text-[#111111]">History</button>
+                  </div>
+       </section>
+
+     <!-- Button section start  -->
+
+    <section>
+
+      <!-- First card start  -->
+      
+     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 border border-inherit p-7 rounded-xl ">
+          
+       <div>
+        <img src="./assets/noakhali.png" alt="">
+       </div>
+
+       <div>
+        <div>
+          <div class="flex gap-2">
+            <div>
+              <img src="./assets/coin.png" alt="">
+            </div>
+            <div id="account-balance">250</div>
+          </div>
+          <h1 class="text-xl font-bold mt-4">Donate for Flood at Noakhali, Bangladesh</h1>
+          <p class="text-base font-light mt-4"> Already, almost all upazilas including Noakhali municipality have been marooned.
+            Incessant rains for the past one week have caused overflowing of Muhuri river which is behind the waterlogging in the district.
+            This has worsened the flood situation in seven upazilas of Noakhali. Many more areas of the district are getting flooded again.
+           </p>
+          <input id="Donation-money" type="text" placeholder="Write Donation Amount" class="mt-6 input input-bordered w-full" />
+          <br>
+          <button id="btn-add-money" class="btn  mt-4 w-full bg-lime-400">Donate Now</button>
+        </div>
+       </div>
+
+     </div>
+      
+      <!-- First card start  -->
+
+       
+
+    </section>
+
+  </main>
+
+   
+  <script src="./js/donate.js"></script>
 </body>
 </html>
