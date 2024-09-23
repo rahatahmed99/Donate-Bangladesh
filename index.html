@@ -50,14 +50,14 @@
      
        <section class=" text-center mb-7">
              <div class="">
-               <button class="btn bg-lime-400 text-xl font-semibold text-[#111111]">Donation</button>
-              <button class="btn bg-lime-400 text-xl font-semibold text-[#111111]">History</button>
+               <button id="show-donation-from" class="btn bg-lime-400 text-xl font-semibold text-[#111111]">Donation</button>
+              <button id="show-history-from" class="btn bg-lime-400 text-xl font-semibold text-[#111111]">History</button>
                   </div>
        </section>
 
-     <!-- Button section start  -->
+     <!-- Button section end -->
 
-    <section>
+    <section id="donate-container">
 
       <!-- First card start  -->
       
@@ -90,13 +90,86 @@
       
       <!-- First card start  -->
 
+      <!-- second card start -->
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 border border-inherit p-7 rounded-xl mt-6 ">
+          
+        <div>
+         <img src="./assets/feni.png" alt="">
+        </div>
+ 
+        <div>
+         <div>
+           <div class="flex gap-2">
+             <div>
+               <img src="./assets/coin.png" alt="">
+             </div>
+             <div id="account-balance-2">900</div>
+           </div>
+           <h1 class="text-xl font-bold mt-4">Donate for Flood Relief in Feni,Bangladesh</h1>
+           <p class="text-base font-light mt-4">  With the worsening flood situation, over 350,000 people in the district are now marooned and have been suffering immensely without electricity.
+            Due to the disruption of all communication links
+            It has been reported that since Monday night, the floodwaters have damaged power lines, leading to widespread power outages in most areas of the Parshuram, Fulgazi, and Chhagalnaiya Upazilas.
+            </p>
+           <input id="Donation-money-2" type="text" placeholder="Write Donation Amount" class="mt-6 input input-bordered w-full" />
+           <br>
+           <button id="btn-add-money-2" class="btn  mt-4 w-full bg-lime-400">Donate Now</button>
+         </div>
+        </div>
+ 
+      </div>
+
+      <!-- second card end -->
+
+
+      <!-- 3th card start -->
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 border border-inherit p-7 rounded-xl mt-6 mb-12">
+          
+        <div>
+         <img src="./assets/quota-protest.png" alt="">
+        </div>
+ 
+        <div>
+         <div>
+           <div class="flex gap-2">
+             <div>
+               <img src="./assets/coin.png" alt="">
+             </div>
+             <div id="account-balance-3">1100</div>
+           </div>
+           <h1 class="text-xl font-bold mt-4">Aid for Injured in the Quota Movement</h1>
+           <p class="text-base font-light mt-4"> We are a couple living in the UK, having moved here in 2022. I, Rakibul Hasan, work as an administrator at a Fortune 300 company, and my wife, Shaila Simanto, is a Quality Controller in the same company. Shaila graduated with a business degree from Staffordshire University, England, a private university in Bangladesh.
+            Before moving to the UK, we were entrepreneurs in Dhaka, where we built several businesses and created over 30 employment 
+           <input id="Donation-money-3" type="text" placeholder="Write Donation Amount" class="mt-6 input input-bordered w-full" />
+           <br>
+           <button id="btn-add-money-3" class="btn  mt-4 w-full bg-lime-400">Donate Now</button>
+         </div>
+        </div>
+ 
+      </div>
+
+      <!-- 3th card end -->
+
        
 
     </section>
 
+
+    <!-- History section start -->
+
+     <section id="history-container" class="hidden">
+      <div id="history-part">
+
+      </div>
+     </section>
+
+    <!-- History section end -->
+
   </main>
 
-   
-  <script src="./js/donate.js"></script>
+   <script src="./js/Utilities.js"></script>
+  <script src="./js/add.js"></script>
+  <script src="./js/feature.js"></script>
 </body>
 </html>
