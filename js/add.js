@@ -74,7 +74,7 @@ document.getElementById('btn-add-money-2')
        const div = document.createElement('div');
        div.classList.add('bg-slate-50');
        div.innerHTML=`
-       <h4 class="text-xl font-bold p-5 rounded-lg border border-inherit mt-6">${donateMoney} Taka is Donated for famine-2024 at Feni, Bangladesh</h4>
+       <h4 class="text-xl font-bold p-5 rounded-lg border border-inherit mt-6 mb-6">${donateMoney} Taka is Donated for famine-2024 at Feni, Bangladesh</h4>
        <p></p>
        `
        document.getElementById('history-part').appendChild(div);
