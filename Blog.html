@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script src="https://kit.fontawesome.com/200660927f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+      <section class="bg-[#F9F7F3] mb-10">
+        <nav class="container m-auto p-6 overflow-hidden sticky top-0">
+    
+          <div class="navbar bg-base-100">
+            <div class="navbar-start">
+             <button id="home-page" class="btn bg-lime-400 text-xl font-semibold text-[#111111]">Home</button>
+            </div>
+            <div class="navbar-center gap-4">
+              <img class="w-12 h-12" src="./assets/logo.png" alt="">
+              <h1 class="text-xl font-semibold text-[#111111]">Donate Bangladesh</h1>
+            </div>
+            <div class="navbar-end gap-4">
+              <div class="flex gap-2">
+                <div>
+                  <img src="./assets/coin.png" alt="">
+                </div>
+                <div id="main-balance" class="text-xl font-medium text-[#111111]">10000</div>
+              </div>
+             
+            </div>
+          </div>
+    
+        </nav>
+       </section>
+
+
+       <section class="container m-auto mt-12">
+
+        <H1 class="text-3xl font-extrabold mb-6">Important FAQ  <i class="fa-regular fa-message"></i></H1>
+
+       <div class="">
+
+        <div class="collapse collapse-arrow bg-base-200 mb-4">
+          <input type="radio" name="my-accordion-2" checked="checked" />
+          <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+          <div class="collapse-content">
+            <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects.</p>
+          </div>
+        </div>
+
+        <div class="collapse collapse-arrow bg-base-200 mb-4">
+          <input type="radio" name="my-accordion-2" checked="checked" />
+          <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+          <div class="collapse-content">
+            <p>Useing getAlimentById I select an element from the DOM.</p>
+          </div>
+        </div>
+
+        
+
+        <div class="collapse collapse-arrow bg-base-200 mb-4">
+          <input type="radio" name="my-accordion-2" checked="checked" />
+          <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+          <div class="collapse-content">
+            <p>Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated.</p>
+          </div>
+        </div>
+
+        <div class="collapse collapse-arrow bg-base-200">
+          <input type="radio" name="my-accordion-2" checked="checked" />
+          <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+          <div class="collapse-content">
+            <p>The classList method only provied manipulate an element.If i went to change other attributes like id,href,or src then i use classList.</p>
+          </div>
+        </div>
+
+
+       </div>
+
+        
+       </section>
+    
+
+       <script src="./js/blog.js"></script>
+</body>
+</html>

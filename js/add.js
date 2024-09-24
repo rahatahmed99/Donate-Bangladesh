@@ -20,6 +20,8 @@ document.getElementById('btn-add-money')
         document.getElementById('account-balance').innerText = newBalance;
 
         document.getElementById('main-balance').innerText = myNewBalance;
+
+        alert('Congratulation !! Succesfully money was Donate.')
          
 
         // history
@@ -65,6 +67,8 @@ document.getElementById('btn-add-money-2')
         document.getElementById('account-balance-2').innerText = newBalance;
 
         document.getElementById('main-balance').innerText = myNewBalance;
+
+        alert('Congratulation !! Succesfully money was Donate.')
 
        // history
        const div = document.createElement('div');
@@ -112,6 +116,8 @@ document.getElementById('btn-add-money-3')
 
         document.getElementById('main-balance').innerText = myNewBalance;
 
+        alert('Congratulation !! Succesfully money was Donate.')
+
 
        // history
        const div = document.createElement('div');
@@ -126,10 +132,22 @@ document.getElementById('btn-add-money-3')
   }
   
   else{
-    alert('falied to donate money')
+    alert('Invalied Donate Money.Please try again!')
   }
 
 
 
 
 })
+
+
+
+
+document.getElementById('blog-page')
+.addEventListener('click',function(){
+  
+    window.location.href = './Blog.html';
+  
+})
+
+
